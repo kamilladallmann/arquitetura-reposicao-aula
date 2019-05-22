@@ -15,8 +15,8 @@ public abstract class AlunoController extends AlunoDAO {
     private AlunoDAO dao;
 
     @PostMapping(value = "aluno")
-    public Aluno insert(@Valid @RequestBody AlunoDTO alunoDTO){
-        return dao.save(alunoDTO);
+    public Aluno insert(@Valid @RequestBody Aluno aluno){
+        return dao.save(aluno);
     }
 
     @GetMapping(value = "/aluno")

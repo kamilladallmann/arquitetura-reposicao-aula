@@ -18,6 +18,9 @@ public class Professor {
     @Column(name = "nome_professor")
     private String nome;
 
+    @Column(name = "siape")
+    private int siape;
+
     @Column(name = "esta_ativo")
     private Boolean ativo;
 

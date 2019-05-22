@@ -10,6 +10,7 @@ import lombok.Setter;
 public class ProfessorDTO {
     private String nome;
     private Boolean ativo;
+    private String siape;
     private Disciplina disciplina;
     private Departamento departamento;
 }
